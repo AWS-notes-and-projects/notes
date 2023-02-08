@@ -1,0 +1,2 @@
+# notes
+AWS goes weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
