@@ -6,7 +6,7 @@ This repository was created by [me](https://github.com/Pavan-Nambi) and [pooja](
 
 The notes are organized into the following sections:
  
- - AWS accounts creation
+ - [AWS accounts creation](./src/AWS_Account_Creation/README.md)
  - Cloud Computing
  - AWS Fundamentals
  - IAM accounts and AWS organisations
