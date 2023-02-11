@@ -12,21 +12,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -35,7 +35,7 @@
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="Steps_for_AWS_Account_Creation.html" class="active"><strong aria-hidden="true">1.</strong> Steps_for_AWS_Account_Creation</a></li><li class="chapter-item expanded "><a href="chapter_2.html"><strong aria-hidden="true">2.</strong> chapter 2</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../../index.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../AWS_Account_Creation/index.html"><strong aria-hidden="true">2.</strong> AWS Accounts Creation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../AWS_Account_Creation/Steps_for_AWS_Account_Creation.html" class="active"><strong aria-hidden="true">2.1.</strong> Steps_for_AWS_Account_Creation</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -113,7 +113,7 @@
                     <h1 class="menu-title">.</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
 
@@ -142,8 +142,8 @@
 
                 <div id="content" class="content">
                     <main>
-                        <!-- ![The Rust Logo](images/rust-logo-blk.svg) -->
-<h1 id="steps_for_aws_account_creation"><a class="header" href="#steps_for_aws_account_creation">Steps_for_AWS_Account_Creation</a></h1>
+                        <h1 id="steps_for_aws_account_creation"><a class="header" href="#steps_for_aws_account_creation">Steps_for_AWS_Account_Creation</a></h1>
+<!-- ![The Rust Logo](images/rust-logo-blk.svg) -->
 <h2 id="pushpin-creation-process"><a class="header" href="#pushpin-creation-process">:pushpin: Creation Process</a></h2>
 <p>Click on the Create AWS Account.</p>
 <p>Mention the Root User Email Address (use the acc_nm+…. @gmail.com trick to get a unique account under the same email id).</p>
@@ -178,7 +178,7 @@ Sign in Process</p>
 <li>
 <p>Go to Accounts and Edit Alternate Contacts and click on Update</p>
 <!-- !image -->
-<p><img src="../images/AlternateCOntacts.png" alt="alternate-accs-image" /></p>
+<p><img src="images/AlternateCOntacts.png" alt="alternate-accs-image" /></p>
 </li>
 <li>
 <p>On same page Click Edit and Activate IAM Access and click on Update.</p>
@@ -188,15 +188,15 @@ Sign in Process</p>
 </li>
 <li>
 <p>Now Click on Assign MFA
-<img src="../images/mfa.png" alt="alternate-MFA-image" /></p>
+<img src="images/mfa.png" alt="alternate-MFA-image" /></p>
 </li>
 <li>
 <p>Select an Authenticator App for authentication
-<img src="../images/securitycred.png" alt="alternate-MFA-image" /></p>
+<img src="images/securitycred.png" alt="alternate-MFA-image" /></p>
 </li>
 <li>
 <p>Scan the QR Code from the Authenticator and enter 2 MFA's back to back from the app into the text boxes and click on Add MFA.
-<img src="../images/Authenticator.png" alt="alternate-MFA-image" /></p>
+<img src="images/Authenticator.png" alt="alternate-MFA-image" /></p>
 </li>
 <li>
 <p>Go to accounts then Billing Dashboard initially you won see anything</p>
@@ -204,7 +204,7 @@ Sign in Process</p>
 <li>
 <p>Select Budget from the Sidebar and Create a Budget for your account.
 you can go with either zero based template one or customize below ss refers to customized version.
-<img src="../images/budget.png" alt="alternate-MFA-image" />
+<img src="images/budget.png" alt="alternate-MFA-image" />
 Here u have to click enable cost explorer and enable. It will say wait for 24 hr to get all data but u can just revisit this page and continue…</p>
 </li>
 </ol>
@@ -238,10 +238,10 @@ Here u have to click enable cost explorer and enable. It will say wait for 24 hr
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-
-                            <a rel="next" href="chapter_2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
+                            <a rel="prev" href="../AWS_Account_Creation/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
                             </a>
+
 
                         <div style="clear: both"></div>
                     </nav>
@@ -249,10 +249,10 @@ Here u have to click enable cost explorer and enable. It will say wait for 24 hr
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-
-                    <a rel="next" href="chapter_2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
+                    <a rel="prev" href="../AWS_Account_Creation/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
                     </a>
+
             </nav>
 
         </div>
@@ -265,13 +265,13 @@ Here u have to click enable cost explorer and enable. It will say wait for 24 hr
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 
