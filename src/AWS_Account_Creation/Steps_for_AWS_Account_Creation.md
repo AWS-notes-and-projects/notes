@@ -1,6 +1,6 @@
-<!-- ![The Rust Logo](images/rust-logo-blk.svg) -->
-
 # Steps_for_AWS_Account_Creation
+
+<!-- ![The Rust Logo](images/rust-logo-blk.svg) -->
 
 ## :pushpin: Creation Process
 
@@ -44,21 +44,21 @@ Sign in Process
 5. Go to Accounts and Edit Alternate Contacts and click on Update
    <!-- !image -->
 
-   ![alternate-accs-image](../images/AlternateCOntacts.png)
+   ![alternate-accs-image](images/AlternateCOntacts.png)
 
 6. On same page Click Edit and Activate IAM Access and click on Update.
 7. Now in-order to activate MFA for this account. Go to Profile select Security credentials.
 8. Now Click on Assign MFA
-   ![alternate-MFA-image](../images/mfa.png)
+   ![alternate-MFA-image](images/mfa.png)
 
 9. Select an Authenticator App for authentication
-   ![alternate-MFA-image](../images/securitycred.png)
+   ![alternate-MFA-image](images/securitycred.png)
 10. Scan the QR Code from the Authenticator and enter 2 MFA's back to back from the app into the text boxes and click on Add MFA.
-    ![alternate-MFA-image](../images/Authenticator.png)
+    ![alternate-MFA-image](images/Authenticator.png)
 11. Go to accounts then Billing Dashboard initially you won see anything
 12. Select Budget from the Sidebar and Create a Budget for your account.
 you can go with either zero based template one or customize below ss refers to customized version.
-![alternate-MFA-image](../images/budget.png)
+![alternate-MFA-image](images/budget.png)
 Here u have to click enable cost explorer and enable. It will say wait for 24 hr to get all data but u can just revisit this page and continue…
 <!-- image-->
 13. After setting up the Budget Configure Alerts in there click on Add an Alert Thershold.
